@@ -7,6 +7,8 @@ import BooleanState from './components/BooleanState';
 import InputState from './components/inputState';
 import ArrayState from './components/ArrayState';
 import UseState from './components/useState';
+import RenderList from './components/Lists-array/renderList';
+import ObjectList from './components/Lists-array/ObjectList';
 
 function App() {
   const firstName = "Anisa";
@@ -23,6 +25,8 @@ function App() {
       <InputState/>
       <ArrayState/>
       <UseState/>
+      <RenderList/>
+      <ObjectList/>
     </>
   )
 }
