@@ -6,6 +6,7 @@ import StringState from './components/StringState';
 import BooleanState from './components/BooleanState';
 import InputState from './components/inputState';
 import ArrayState from './components/ArrayState';
+import UseState from './components/useState';
 
 function App() {
   const firstName = "Anisa";
@@ -21,6 +22,7 @@ function App() {
       <BooleanState/>
       <InputState/>
       <ArrayState/>
+      <UseState/>
     </>
   )
 }
