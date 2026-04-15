@@ -1,6 +1,7 @@
 import react from 'react';
 import ProductList from './components/ProductList';
-
+import 'bootstrap-icons/font/bootstrap-icons.css';
+import "./App.css";
 
 // import Header from './components/header/Header';
 // import StringPop from './components/header/stringPop';
@@ -14,8 +15,8 @@ import ProductList from './components/ProductList';
 // import ObjectList from './components/Lists-array/ObjectList';
 
 function App() {
-  const firstName = "Anisa";
-  const lastName = "Bekteshi"
+  //const firstName = "Anisa";
+  //const lastName = "Bekteshi"
 
   return (
     <>
